@@ -67,7 +67,7 @@ export default function Rooms() {
       <section className="max-w-7xl mx-auto px-6 lg:px-12 pb-24">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {filtered.map((room, i) => (
-            <div key={room.id} className="bg-white group shadow-sm hover:shadow-xl transition-shadow duration-500 reveal" style={{transitionDelay:`${i*0.1}s`}}>
+            <div key={room.id} className="bg-white group shadow-sm hover:shadow-xl transition-shadow duration-500" style={{transitionDelay:`${i*0.1}s`}}>
               <div className="img-hover overflow-hidden relative aspect-[4/3]">
                 <img src={room.image} alt={room.name} className="w-full h-full object-cover" />
                 {room.id === 5 && (
