@@ -1,0 +1,45 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Savanna & Co.",
+      "type": "Fine Dining",
+      "description": "Our flagship restaurant celebrates the rich culinary heritage of East Africa through a modern lens. Chef-driven tasting menus pair local produce with globally inspired technique, served in an atmosphere of relaxed opulence.",
+      "hours": "Breakfast 6:30–10:30 · Lunch 12:00–15:00 · Dinner 18:30–22:30",
+      "dress": "Smart Casual",
+      "image": "/images/dining-restaurant.jpg",
+      "image2": "/images/dining-restaurant-2.jpg",
+      "reservation": true
+    },
+    {
+      "id": 2,
+      "name": "The Gold Bar",
+      "type": "Cocktail Lounge",
+      "description": "An intimate lounge of burnished gold, dark timber, and velvet seating. Our mixologists craft signature cocktails inspired by the flavours of Kenya — from tamarind sours to baobab-infused spirits.",
+      "hours": "Daily 16:00–01:00",
+      "dress": "Smart Casual",
+      "image": "/images/dining-bar.jpg",
+      "image2": "/images/dining-bar-2.jpg",
+      "reservation": false
+    },
+    {
+      "id": 3,
+      "name": "Poolside Terrace",
+      "type": "Al Fresco Dining",
+      "description": "Dine under open skies beside our infinity pool. Light fare, fresh juices, and grilled specialties served from morning until sunset. The perfect companion to a languid afternoon by the water.",
+      "hours": "Daily 07:00–19:00",
+      "dress": "Casual",
+      "image": "/images/dining-poolside.jpg",
+      "image2": "/images/dining-poolside-2.jpg",
+      "reservation": false
+    }
+  ],
+  "featuredDishes": [
+    { "name": "Pan-Seared Tilapia", "description": "Lake Victoria tilapia, lemon butter sauce, sautéed greens", "category": "Mains", "image": "/images/dish-tilapia.jpg" },
+    { "name": "Nyama Choma Platter", "description": "Slow-roasted lamb, house-made kachumbari, ugali cakes", "category": "Mains", "image": "/images/dish-nyama-choma.jpg" },
+    { "name": "Swahili Prawn Curry", "description": "Coastal coconut curry, saffron rice, pickled mango", "category": "Mains", "image": "/images/dish-prawn-curry.jpg" },
+    { "name": "Avocado & Crab Stack", "description": "Kenyan avocado, blue crab, citrus vinaigrette", "category": "Starters", "image": "/images/dish-avocado-crab.jpg" },
+    { "name": "Chocolate Safari Tart", "description": "Dark chocolate ganache, passion fruit curd, gold leaf", "category": "Desserts", "image": "/images/dish-chocolate-tart.jpg" },
+    { "name": "Breakfast Platter", "description": "Farm eggs, grilled tomato, avocado, artisan breads", "category": "Breakfast", "image": "/images/dish-breakfast.jpg" }
+  ]
+}
