@@ -18,7 +18,7 @@ export default function Rooms() {
       {/* Page hero */}
       <section className="relative h-72 md:h-96 flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/images/rooms-hero.jpg" alt="Darwin's Hotel rooms" className="w-full h-full object-cover" />
+          <img src="/images/rooms-hero.jpg" alt="Annan's Hotel rooms" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-12 w-full">
@@ -43,7 +43,7 @@ export default function Rooms() {
           <h2 className="font-serif text-3xl md:text-4xl font-400 mb-4">Six Categories, One Standard — Perfection</h2>
           <div className="gold-divider mb-6" style={{margin:'0 0 1.5rem'}} />
           <p className="font-body text-charcoal-light leading-relaxed">
-            From our welcoming Classic Room to the grandeur of the Presidential Suite, each space at Darwin's is a private world. Warm materials, refined furnishings, and immaculate service are constants — the scale simply grows with your ambition.
+            From our welcoming Classic Room to the grandeur of the Presidential Suite, each space at Annan's is a private world. Warm materials, refined furnishings, and immaculate service are constants — the scale simply grows with your ambition.
           </p>
         </div>
       </section>
@@ -173,7 +173,7 @@ export default function Rooms() {
           <div className="section-label mb-4">Need Assistance?</div>
           <h3 className="font-serif text-3xl font-400 mb-4">Let Our Concierge Guide You</h3>
           <p className="font-body text-charcoal-light mb-8">Not sure which room fits best? Our team is on hand 24/7 to help you find your perfect stay.</p>
-          <a href="tel:+254743596965" className="btn-gold">Call +254 743 596 965</a>
+          <a href="tel:+254143276663" className="btn-gold">Call +254 143 276 663</a>
         </div>
       </section>
     </div>

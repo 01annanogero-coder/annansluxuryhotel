@@ -6,7 +6,7 @@ const facilities = [
     id: 1,
     title: 'Infinity Pool',
     subtitle: 'Rooftop Aquatic Sanctuary',
-    description: 'Perched at the summit of Darwin\'s Hotel, our rooftop infinity pool offers an unbroken panorama of Nairobi\'s skyline. Heated year-round, it is the perfect retreat whether at dawn or under the stars. Complimentary towels, sun loungers, and poolside service are always at hand.',
+    description: 'Perched at the summit of Annan\'s Hotel, our rooftop infinity pool offers an unbroken panorama of Nairobi\'s skyline. Heated year-round, it is the perfect retreat whether at dawn or under the stars. Complimentary towels, sun loungers, and poolside service are always at hand.',
     features: ['Heated year-round', 'Panoramic city views', 'Poolside bar service', 'Sun loungers & cabanas', 'Night swimming available', 'Children\'s pool adjacent'],
     image: '/images/facility-pool.jpg',
     image2: '/images/facility-pool-2.jpg',
@@ -46,7 +46,7 @@ const facilities = [
     id: 5,
     title: 'Event & Conference Spaces',
     subtitle: 'Where Occasions Become Memories',
-    description: 'From intimate boardroom meetings to grand ballroom galas, Darwin\'s offers versatile event spaces accommodating 10 to 500 guests. Our dedicated events team handles every detail — AV technology, bespoke catering, florals, and beyond.',
+    description: 'From intimate boardroom meetings to grand ballroom galas, Annan\'s offers versatile event spaces accommodating 10 to 500 guests. Our dedicated events team handles every detail — AV technology, bespoke catering, florals, and beyond.',
     features: ['Ballroom: 500 guests', '4 boardrooms', 'Full AV & conferencing', 'Bespoke catering menus', 'Dedicated events manager', 'Bridal suite on-site'],
     image: '/images/facility-events.jpg',
     image2: '/images/facility-events-2.jpg',
@@ -87,7 +87,7 @@ export default function Facilities() {
       {/* Hero */}
       <section className="relative h-72 md:h-[500px] flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/images/facility-pool.jpg" alt="Darwin's Hotel facilities" className="w-full h-full object-cover" />
+          <img src="/images/facility-pool.jpg" alt="Annan's Hotel facilities" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-14 w-full">
@@ -112,7 +112,7 @@ export default function Facilities() {
           <h2 className="font-serif text-3xl md:text-5xl font-400 mb-6">Beyond the Room,<br/><span className="italic text-gold">A World Awaits</span></h2>
           <div className="gold-divider mb-6" />
           <p className="font-body text-charcoal-light leading-relaxed">
-            At Darwin's, luxury extends far beyond your suite. Our world-class facilities have been designed to serve every dimension of your stay — from invigorating mornings in the fitness centre to tranquil evenings at the spa.
+            At Annan's, luxury extends far beyond your suite. Our world-class facilities have been designed to serve every dimension of your stay — from invigorating mornings in the fitness centre to tranquil evenings at the spa.
           </p>
         </div>
       </section>
@@ -180,7 +180,7 @@ export default function Facilities() {
       <section className="bg-cream-DEFAULT py-20 text-center">
         <div className="max-w-xl mx-auto px-6 reveal">
           <div className="section-label mb-4">Plan Your Visit</div>
-          <h3 className="font-serif text-3xl font-400 mb-6">Experience Darwin's in Full</h3>
+          <h3 className="font-serif text-3xl font-400 mb-6">Experience Annan's in Full</h3>
           <div className="gold-divider mb-8" />
           <p className="font-body text-charcoal-light mb-10">From the pool to the spa to the table — let us curate a bespoke day itinerary just for you.</p>
           <Link to="/contact" className="btn-gold">Contact Our Concierge</Link>

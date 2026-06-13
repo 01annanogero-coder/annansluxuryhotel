@@ -18,7 +18,7 @@ export default function Dining() {
       {/* Page hero */}
       <section className="relative h-72 md:h-[500px] flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/images/dining-hero.jpg" alt="Darwin's fine dining" className="w-full h-full object-cover" />
+          <img src="/images/dining-hero.jpg" alt="Annan's fine dining" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-14 w-full">
@@ -43,7 +43,7 @@ export default function Dining() {
           <h2 className="font-serif text-3xl md:text-5xl font-400 mb-6">Three Venues,<br/><span className="italic text-gold">One Passion</span></h2>
           <div className="gold-divider mb-6" />
           <p className="font-body text-charcoal-light leading-relaxed">
-            From the theatre of our flagship restaurant to the languid pleasures of poolside dining, every culinary experience at Darwin's is crafted to be remembered. Locally sourced, globally inspired, and always extraordinary.
+            From the theatre of our flagship restaurant to the languid pleasures of poolside dining, every culinary experience at Annan's is crafted to be remembered. Locally sourced, globally inspired, and always extraordinary.
           </p>
         </div>
       </section>
@@ -137,8 +137,8 @@ export default function Dining() {
           <p className="font-body text-white/60 mb-10">For reservations, dietary requirements, or private dining enquiries, our team is ready to assist.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact" className="btn-gold">Make a Reservation</Link>
-            <a href="tel:+254743596965" className="btn-outline-gold" style={{borderColor:'rgba(255,255,255,0.3)', color:'white'}}>
-              +254 743 596 965
+            <a href="tel:+254143276663" className="btn-outline-gold" style={{borderColor:'rgba(255,255,255,0.3)', color:'white'}}>
+              +254 143 276 663
             </a>
           </div>
         </div>

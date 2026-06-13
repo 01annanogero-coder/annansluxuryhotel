@@ -36,13 +36,11 @@ export default function Navbar() {
             </svg>
             <div>
               <div className={`font-serif text-xl font-600 tracking-widest leading-none transition-colors ${scrolled ? 'text-charcoal-dark' : 'text-white'}`}>
-                DARWIN'S
+                ANNAN'S
               </div>
-              <div className="section-label text-gold" style={{fontSize:'0.55rem', letterSpacing:'0.3em'}}>LUXURY HOTEL</div>
             </div>
           </Link>
 
-          {/* Desktop nav */}
           <div className="hidden lg:flex items-center gap-8">
             {navLinks.map(link => (
               <Link

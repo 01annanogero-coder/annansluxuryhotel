@@ -28,7 +28,7 @@ const galleryItems = [
   { id: 20, src: '/images/facility-garden.jpg', alt: 'Hotel Gardens', category: 'Facilities', size: 'small' },
   { id: 21, src: '/images/facility-events.jpg', alt: 'Event Spaces', category: 'Facilities', size: 'small' },
   // Hotel
-  { id: 22, src: '/images/hero-building.jpg', alt: "Darwin's Hotel Exterior", category: 'Hotel', size: 'large' },
+  { id: 22, src: '/images/hero-building.jpg', alt: "Annan's Hotel Exterior", category: 'Hotel', size: 'large' },
   { id: 23, src: '/images/about-lobby.jpg', alt: 'Hotel Lobby', category: 'Hotel', size: 'medium' },
   { id: 24, src: '/images/about-detail.jpg', alt: 'Interior Detail', category: 'Hotel', size: 'small' },
   { id: 25, src: '/images/testimonial-bg.jpg', alt: 'Hotel Atmosphere', category: 'Hotel', size: 'medium' },
@@ -60,7 +60,7 @@ export default function Gallery() {
       {/* Hero */}
       <section className="relative h-72 md:h-96 flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/images/gallery-hero.jpg" alt="Darwin's Hotel gallery" className="w-full h-full object-cover" />
+          <img src="/images/gallery-hero.jpg" alt="Annan's Hotel gallery" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-14 w-full">

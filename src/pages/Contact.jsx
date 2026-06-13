@@ -4,11 +4,11 @@ import { useReveal } from '../hooks/useReveal'
 import emailjs from '@emailjs/browser'
 
 const socials = [
-  { name: 'Facebook', href: 'YOUR_FACEBOOK_URL', color: '#1877F2', icon: <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg> },
-  { name: 'Instagram', href: 'https://www.instagram.com/obssesedwithcastro?utm_source=qr&igsh=dzZyNTdzenljdjBp', color: '#E1306C', icon: <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg> },
-  { name: 'X (Twitter)', href: 'https://x.com/andr20863', color: '#000000', icon: <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> },
-  { name: 'YouTube', href: 'YOUR_YOUTUBE_URL', color: '#FF0000', icon: <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.4a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg> },
-  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/darwin-andrew-4313b740b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', color: '#0A66C2', icon: <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg> },
+  { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61589456675954', color: '#1877F2', icon: <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg> },
+  { name: 'Instagram', href: 'https://www.instagram.com/zygoatfans?igsh=d3U3ZDU4YzRhNmNx', color: '#E1306C', icon: <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg> },
+  { name: 'X (Twitter)', href: 'https://x.com/ogero9258', color: '#000000', icon: <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> },
+  { name: 'YouTube', href: 'https://youtube.com/@annanogero?si=IOK8FFGETl2X4Be1', color: '#FF0000', icon: <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.4a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg> },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/annan-ogero-3553473a7?utm_source=share_via&utm_content=profile&utm_medium=member_android', color: '#0A66C2', icon: <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg> },
 ]
 
 export default function Contact() {
@@ -54,7 +54,7 @@ export default function Contact() {
       {/* Hero */}
       <section className="relative h-72 md:h-96 flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/images/contact-hero.jpg" alt="Darwin's Hotel contact" className="w-full h-full object-cover" />
+          <img src="/images/contact-hero.jpg" alt="Annan's Hotel contact" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-14 w-full">
@@ -91,14 +91,14 @@ export default function Contact() {
                 {
                   icon: <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#C9A84C" strokeWidth="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 7.18 2 2 0 015 5h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 12a16 16 0 006.91 6.91l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>,
                   label: 'Phone / WhatsApp',
-                  value: '+254 743 596 965',
-                  href: 'tel:+254743596965',
+                  value: '+254 143 276 663',
+                  href: 'tel:+254143276663',
                 },
                 {
                   icon: <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#C9A84C" strokeWidth="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>,
                   label: 'Email',
-                  value: 'darwins@gmail.com',
-                  href: 'mailto:darwins@gmail.com',
+                  value: 'annanogero@gmail.com',
+                  href: 'mailto:annanogero@gmail.com',
                 },
                 {
                   icon: <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#C9A84C" strokeWidth="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>,
@@ -125,7 +125,7 @@ export default function Contact() {
 
             {/* Social media */}
             <div className="mb-12">
-              <div className="section-label mb-5">Follow Darwin's</div>
+              <div className="section-label mb-5">Follow Annan's</div>
               <div className="flex flex-wrap gap-3">
                 {socials.map(s => (
                   <a
@@ -148,7 +148,7 @@ export default function Contact() {
               <div className="section-label mb-4">Meet the Team</div>
               <div className="flex items-center gap-5">
                 <div className="w-20 h-20 overflow-hidden border-2 border-gold/30 flex-shrink-0">
-                  <img src="/images/owner-photo.jpg" alt="Darwin's Hotel Manager" className="w-full h-full object-cover" />
+                  <img src="/images/owner-photo.jpg" alt="Annan's Hotel Manager" className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <h4 className="font-serif text-xl font-400 mb-1">The Management</h4>
@@ -308,7 +308,7 @@ export default function Contact() {
           {/* Map image from client */}
           <img
             src="/images/google-map.png"
-            alt="Darwin's Hotel location map, Nairobi Kenya"
+            alt="Annan's Hotel location map, Nairobi Kenya"
             className="w-full h-96 md:h-[500px] object-cover"
           />
           {/* Map overlay card */}
@@ -320,7 +320,7 @@ export default function Contact() {
                 </svg>
               </div>
               <div>
-                <div className="font-serif text-sm font-500">Darwin's Luxury Hotel</div>
+                <div className="font-serif text-sm font-500">Annan's Luxury Hotel</div>
                 <div className="font-body text-xs text-charcoal-light">5.0 ★ · 5-Star Hotel</div>
               </div>
             </div>
@@ -328,7 +328,7 @@ export default function Contact() {
               Nairobi, Kenya
             </div>
             <a
-              href="https://maps.google.com/?q=Darwins+Hotel+Nairobi"
+              href="https://maps.google.com/?q=Annans+Hotel+Nairobi"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-gold text-xs block text-center py-2.5"

@@ -69,7 +69,7 @@ const amenities = [
 
 const testimonials = [
   {
-    quote: "Darwin's Hotel is in a class of its own. The attention to detail, the staff, the food — an experience I will never forget.",
+    quote: "Annan's Hotel is in a class of its own. The attention to detail, the staff, the food — an experience I will never forget.",
     name: 'Amara O.',
     location: 'Lagos, Nigeria',
     stars: 5,
@@ -108,7 +108,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <img
             src="/images/hero-building.jpg"
-            alt="Darwin's Hotel Nairobi exterior"
+            alt="Annan's Hotel Nairobi exterior"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
@@ -118,7 +118,7 @@ export default function Home() {
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto" style={{marginTop: '-60px'}}>
           <div className="section-label text-gold mb-6 animate-fade-in">Nairobi, Kenya</div>
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-white font-400 leading-tight mb-6 animate-fade-in" style={{animationDelay:'0.2s', opacity:0, animationFillMode:'forwards'}}>
-            Darwin's<br/>
+            Annan's<br/>
             <span className="italic text-gold">Luxury</span> Hotel
           </h1>
           <div className="gold-divider mb-6" />
@@ -186,14 +186,14 @@ export default function Home() {
       <section className="py-24 max-w-7xl mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="reveal-left">
-            <div className="section-label mb-4">Welcome to Darwin's</div>
+            <div className="section-label mb-4">Welcome to Annan's</div>
             <h2 className="font-serif text-4xl md:text-5xl font-400 leading-tight mb-6">
               A Nairobi Icon<br/>
               <span className="italic text-gold">Reimagined</span>
             </h2>
             <div className="gold-divider mb-8" style={{margin:'0 0 2rem'}} />
             <p className="font-body text-charcoal-light leading-relaxed mb-6">
-              Darwin's Hotel stands as Nairobi's most celebrated address — a place where the warmth of Kenyan hospitality meets the precision of international luxury. From our breathtaking suites to our award-winning cuisine, every element has been curated with singular intention: your absolute comfort.
+              Annan's Luxury Hotel stands as Nairobi's most celebrated address — a place where the warmth of Kenyan hospitality meets the precision of international luxury. From our breathtaking suites to our award-winning cuisine, every element has been curated with singular intention: your absolute comfort.
             </p>
             <p className="font-body text-charcoal-light leading-relaxed mb-10">
               Perfectly situated in Nairobi, Kenya, we are your gateway to the city's finest experiences — from safari adventures to boardroom meetings, all from the embrace of five-star elegance.
@@ -203,14 +203,14 @@ export default function Home() {
           <div className="reveal-right">
             <div className="grid grid-cols-2 gap-4">
               <div className="img-hover aspect-[3/4]">
-                <img src="/images/about-lobby.jpg" alt="Darwin's Hotel lobby" className="w-full h-full object-cover" />
+                <img src="/images/about-lobby.jpg" alt="Annan's Hotel lobby" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col gap-4 mt-8">
                 <div className="img-hover aspect-square">
                   <img src="/images/about-detail.jpg" alt="Hotel interior detail" className="w-full h-full object-cover" />
                 </div>
                 <div className="img-hover aspect-square">
-                  <img src="/images/about-pool.jpg" alt="Darwin's Hotel pool" className="w-full h-full object-cover" />
+                  <img src="/images/about-pool.jpg" alt="Annan's Hotel pool" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
@@ -289,7 +289,7 @@ export default function Home() {
       <section className="relative py-0 overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
           <div className="img-hover">
-            <img src="/images/dining-hero.jpg" alt="Darwin's fine dining" className="w-full h-full object-cover min-h-[400px]" />
+            <img src="/images/dining-hero.jpg" alt="Annan's fine dining" className="w-full h-full object-cover min-h-[400px]" />
           </div>
           <div className="bg-charcoal-dark flex items-center px-12 lg:px-20 py-20">
             <div>
@@ -391,7 +391,7 @@ export default function Home() {
           <div className="section-label mb-4">Begin Your Journey</div>
           <h2 className="font-serif text-4xl md:text-5xl font-400 mb-6">
             Ready to Experience<br/>
-            <span className="italic text-gold">Darwin's?</span>
+            <span className="italic text-gold">Annan's?</span>
           </h2>
           <div className="gold-divider mb-8" />
           <p className="font-body text-charcoal-light mb-10">
@@ -399,7 +399,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact" className="btn-gold">Make a Reservation</Link>
-            <a href="tel:+254743596965" className="btn-outline-gold">Call Us Now</a>
+            <a href="tel:+254143276663" className="btn-outline-gold">Call Us Now</a>
           </div>
         </div>
       </section>
